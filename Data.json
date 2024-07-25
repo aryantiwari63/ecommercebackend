@@ -1,0 +1,283 @@
+{
+    
+        "phones": [
+          {
+            "id": 1,
+            "name": "iPhone 13",
+            "image": "https://via.placeholder.com/150",
+            "description": "Latest model with A15 Bionic chip.",
+            "price": 58000
+          },
+          {
+            "id": 2,
+            "name": "Samsung Galaxy S21",
+            "image": "https://via.placeholder.com/150",
+            "description": "High-end Android phone with Snapdragon 888.",
+            "price": 40000
+          },
+          {
+            "id": 3,
+            "name": "Google Pixel 6",
+            "image": "https://via.placeholder.com/150",
+            "description": "Google's flagship phone with Tensor chip.",
+            "price": 15000
+          },
+          {
+            "id": 4,
+            "name": "OnePlus 9",
+            "image": "https://via.placeholder.com/150",
+            "description": "Flagship phone with Hasselblad camera.",
+            "price": 16000
+          }
+        ],
+        
+            "tablets": [
+              {
+                "id": 1,
+                "name": "iPad Pro",
+                "image": "https://via.placeholder.com/150",
+                "description": "Powerful tablet with M1 chip.",
+                "price": 18000
+              },
+              {
+                "id": 2,
+                "name": "Samsung Galaxy Tab S7",
+                "image": "https://via.placeholder.com/150",
+                "description": "High-performance tablet with S Pen.",
+                "price": 14000
+              },
+              {
+                "id": 3,
+                "name": "Microsoft Surface Pro 7",
+                "image": "https://via.placeholder.com/150",
+                "description": "Versatile 2-in-1 laptop with touchscreen.",
+                "price": 17000
+              },
+              {
+                "id": 4,
+                "name": "Amazon Fire HD 10",
+                "image": "https://via.placeholder.com/150",
+                "description": "Affordable tablet with Alexa.",
+                "price": 14000
+              }
+            ],
+          
+            
+                "tv": [
+                  {
+                    "id": 1,
+                    "name": "Samsung 55-Inch 4K UHD Smart TV",
+                    "image": "https://via.placeholder.com/150",
+                    "description": "Stunning 4K UHD resolution with smart features.",
+                    "price": 25000
+                  },
+                  {
+                    "id": 2,
+                    "name": "LG 65-Inch OLED TV",
+                    "image": "https://via.placeholder.com/150",
+                    "description": "Exceptional picture quality with OLED technology.",
+                    "price": 14000
+                  },
+                  {
+                    "id": 3,
+                    "name": "Sony 50-Inch 4K LED TV",
+                    "image": "https://via.placeholder.com/150",
+                    "description": "Sharp 4K resolution with LED backlighting.",
+                    "price": 25000
+                  },
+                  {
+                    "id": 4,
+                    "name": "TCL 75-Inch 8K QLED TV",
+                    "image": "https://via.placeholder.com/150",
+                    "description": "Ultra-high-definition 8K resolution with QLED display.",
+                    "price": 19999
+                  }
+                ],
+                "beauty": [
+                    {
+                      "id": 1,
+                      "name": "Moisturizing Facial Cream",
+                      "image": "https://via.placeholder.com/150",
+                      "description": "Hydrating cream with vitamin E and hyaluronic acid.",
+                      "price": 240
+                    },
+                    {
+                      "id": 2,
+                      "name": "Anti-Aging Serum",
+                      "image": "https://via.placeholder.com/150",
+                      "description": "Powerful serum to reduce wrinkles and fine lines.",
+                      "price": 130
+                    },
+                    {
+                      "id": 3,
+                      "name": "Vitamin C Face Mask",
+                      "image": "https://via.placeholder.com/150",
+                      "description": "Brightening mask with vitamin C and antioxidants.",
+                      "price": 120
+                    },
+                    {
+                      "id": 4,
+                      "name": "Hydrating Lip Balm",
+                      "image": "https://via.placeholder.com/150",
+                      "description": "Nourishing lip balm with shea butter and beeswax.",
+                      "price": 200
+                    }
+                  ],
+                  "furniture": [
+    {
+      "id": 1,
+      "name": "Modern Sofa",
+      "image": "https://via.placeholder.com/150",
+      "description": "Comfortable and stylish sofa with modern design.",
+      "price": 12000
+    },
+    {
+      "id": 2,
+      "name": "Wooden Dining Table",
+      "image": "https://via.placeholder.com/150",
+      "description": "Elegant wooden dining table with seating for 6.",
+      "price": 7000
+    },
+    {
+      "id": 3,
+      "name": "King Size Bed",
+      "image": "https://via.placeholder.com/150",
+      "description": "Spacious king-size bed with a premium mattress.",
+      "price": 14000
+    },
+    {
+      "id": 4,
+      "name": "Office Desk",
+      "image": "https://via.placeholder.com/150",
+      "description": "Functional office desk with built-in storage.",
+      "price": 6500
+    }
+  ],
+  "grocery": [
+    {
+      "id": 1,
+      "name": "Organic Apples",
+      "image": "https://via.placeholder.com/150",
+      "description": "Fresh and juicy organic apples.",
+      "price": 130
+    },
+    {
+      "id": 2,
+      "name": "Whole Wheat Bread",
+      "image": "https://via.placeholder.com/150",
+      "description": "Healthy whole wheat bread with no added sugar.",
+      "price": 100
+    },
+    {
+      "id": 3,
+      "name": "Almond Milk",
+      "image": "https://via.placeholder.com/150",
+      "description": "Creamy almond milk, perfect for dairy-free diets.",
+      "price": 100
+    },
+    {
+      "id": 4,
+      "name": "Granola Bars",
+      "image": "https://via.placeholder.com/150",
+      "description": "Nutritious granola bars with mixed nuts and honey.",
+      "price": 120
+    }
+  ],
+  "kitchen": [
+    {
+      "id": 1,
+      "name": "Blender",
+      "image": "https://via.placeholder.com/150",
+      "description": "High-performance blender with multiple speed settings.",
+      "price": 350
+    },
+    {
+      "id": 2,
+      "name": "Coffee Maker",
+      "image": "https://via.placeholder.com/150",
+      "description": "Programmable coffee maker with a 12-cup capacity.",
+      "price": 260
+    },
+    {
+      "id": 3,
+      "name": "Air Fryer",
+      "image": "https://via.placeholder.com/150",
+      "description": "Compact air fryer with adjustable temperature control.",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "name": "Vacuum Cleaner",
+      "image": "https://via.placeholder.com/150",
+      "description": "Powerful vacuum cleaner with multiple attachments.",
+      "price": 400
+    }
+  ],
+      
+    "Fashion": [
+      {
+        "id": 1,
+        "name": "T-Shirt",
+        "image": "https://via.placeholder.com/150",
+        "description": "Comfortable cotton t-shirt.",
+        "price": 400
+      },
+      {
+        "id": 2,
+        "name": "T-Shirt",
+        "image": "https://via.placeholder.com/150",
+        "description": "Comfortable cotton t-shirt.",
+        "price": 500
+      },
+      {
+        "id": 3,
+        "name": "T-Shirt",
+        "image": "https://via.placeholder.com/150",
+        "description": "Comfortable cotton t-shirt.",
+        "price": 600
+      },
+      {
+        "id": 4,
+        "name": "Jeans",
+        "image": "https://via.placeholder.com/150",
+        "description": "Stylish denim jeans.",
+        "price": 800
+      },
+      {
+        "id": 5,
+        "name": "Jeans",
+        "image": "https://via.placeholder.com/150",
+        "description": "Stylish denim jeans.",
+        "price": 1180
+      },
+      {
+        "id": 6,
+        "name": "Jeans",
+        "image": "https://via.placeholder.com/150",
+        "description": "Stylish denim jeans.",
+        "price": 1300
+      },
+      {
+        "id": 7,
+        "name": "Jacket",
+        "image": "https://via.placeholder.com/150",
+        "description": "Warm and cozy jacket.",
+        "price": 2000
+      },
+      {
+        "id": 8,
+        "name": "Jacket",
+        "image": "https://via.placeholder.com/150",
+        "description": "Warm and cozy jacket.",
+        "price": 2400
+      },
+      {
+        "id": 9,
+        "name": "Jacket",
+        "image": "https://via.placeholder.com/150",
+        "description": "Warm and cozy jacket.",
+        "price": 2600
+      }
+    ]
+  }
+  
