@@ -18,7 +18,7 @@ router.post('/login',Usersontroller.checklogin );
 
 router.post('/forgotpasswordrequest',Usersontroller.changepasswordrequest);
 
-// router.post('/resetpassword/:token',Usersontroller.changepassword);
+ router.post('/reset-password/:token',Usersontroller.changepassword);
 // router.post('/reset-password/:token', async (req, res) => {
 //   const { token } = req.params;
 //   const { newpassword } = req.body;

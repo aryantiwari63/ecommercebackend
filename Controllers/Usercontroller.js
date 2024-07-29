@@ -199,7 +199,7 @@ exports.gethomeproducts =async(req, res) => {
     const { token } = req.params;
     const { newpassword } = req.body;
     console.log(newpassword);
-    console.log(token);
+    console.log("token from mail",token);
     let decoded;
     try {
       decoded = jwt.verify(token,process.env.SECRET_KEY);
@@ -213,7 +213,7 @@ exports.gethomeproducts =async(req, res) => {
     }
 
     const salt = await bcrypt.genSalt(10);
-    user.password = await bcrypt.hash(password, salt);
+    user.password = await bcrypt.hash(newpassword, salt);
     await user.save();
       console.log("password saved");
     res.send('Password has been reset');
