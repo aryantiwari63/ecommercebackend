@@ -110,8 +110,7 @@ exports.gethomeproducts =async(req, res) => {
              subject: 'Sending Email using Node.js',
               html: `<p>You requested a password reset</p><p>Click this <a href="${resetURL}">link</a> to reset your password</p>`
            };
-           
-           // Send the email
+         
            testaccount.sendMail(mailOptions, function(error, info){
              if (error) {
                console.log(error);
@@ -160,43 +159,6 @@ catch(error){
 }
 };
 
-// exports.addtocart = async(req,res) => {
-//   const { productId, quantity } = req.body;
-  
-
-//    console.log('productId, quantity',productId, quantity);
-//   try {
-//     const cart = await Cart.findOne({ userId: req.user.id });
-
-//     if (cart) {
-//       // Cart exists for the user
-//       const itemIndex = cart.items.findIndex(item => item.productId == productId);
-
-//       if (itemIndex > -1) {
-//         // Product exists in the cart, update the quantity
-//         cart.items[itemIndex].quantity += quantity;
-//       } else {
-//         // Product does not exist in cart, add new item
-//         cart.items.push({ productId, quantity,price });
-//       }
-
-//       await cart.save();
-//       res.status(200).json(cart);
-//     } else {
-//       // No cart for user, create new cart
-//       const newCart = new Cart({
-//         userId: req.user.id,
-//         items: [{ productId, quantity }]
-//       });
-
-//       await newCart.save();
-//       console.log("new card complete")
-//       res.status(200).json(newCart);
-//     }
-//   } catch (error) {
-//     res.status(500).json({ message: 'Server error' });
-//   }
-// };
 exports.addtocart = async(req, res) => {
   const { productId, quantity } = req.body;
 
