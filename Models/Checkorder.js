@@ -1,8 +1,7 @@
-
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const CartItemSchema = new Schema({
+const checkorderSchema = new Schema({
   productId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Product',
@@ -12,28 +11,36 @@ const CartItemSchema = new Schema({
     type: Number,
     default: 1
   },
-  price:{
+  price: {
     type: Number
   },
-  name:{
+  totalprice: {
+    type: Number
+  },
+  name: {
     type: String
   },
-  category:{
+  category: {
+    type: String
+  },
+  color:{
+    type: String
+  },
+  size:{
     type: String
   },
   imageUrl: {
     type: String
   },
-  
 });
 
-const CartSchema = new Schema({
+const CheckSchema = new Schema({
   userId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true
   },
-  items: [CartItemSchema]
+  orders: [ checkorderSchema]
 });
 
-module.exports = mongoose.model('Cart', CartSchema);
+module.exports = mongoose.model('Checkorder',CheckSchema );
