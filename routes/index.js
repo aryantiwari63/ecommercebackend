@@ -9,7 +9,7 @@ const bcrypt = require("bcryptjs");
 const dotenv = require("dotenv");
 const nodemailer = require('nodemailer');
 const Usersontroller = require("../Controllers/Usercontroller");
-const paypal = require("../Controllers/Paypal");
+// const paypal = require("../Controllers/Paypal");
 const Cart = require("../Models/Cart");
 const Review = require("../Models/Reviews");
 
@@ -238,7 +238,8 @@ router.post("/navitem", Usersontroller.navitem);
 
 router.get("/getnavitem", Usersontroller.getnavitem);
 
-router.post("/order",paypal.payProduct );
+// router.post("/order",paypal.payProduct );
+
 
 
 
